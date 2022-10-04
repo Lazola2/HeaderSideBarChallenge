@@ -14,4 +14,30 @@ header {
     width: 100vw;
     background: linear-gradient(rgb(33, 33, 33),rgb(22, 22, 22));
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
 }
+
+header #logo i {
+    font-size: 30px;
+}
+
+header #nav-links{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header #nav-links #links {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-top: 10px;
+}
+header #nav-links #links .link {
+    margin: 0 20px;
+    list-style: none;
+}
+
