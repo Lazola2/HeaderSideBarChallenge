@@ -48,7 +48,7 @@ header #nav-links{
     align-items: center;
     height: 100%;
     width: 60%;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 header #nav-links #links {
@@ -58,6 +58,11 @@ header #nav-links #links {
     padding-top: 10px;
     width: 100%;
     justify-content: space-between;
+}
+
+#links i {
+    margin-right: 10px;
+    font-size: 15px;
 }
 
 header #nav-links #links .link {
@@ -128,7 +133,6 @@ header #nav-links #links .link {
     color: #fff;
 }
 
-
 #side-links .side-link:hover{
     background-color: #fff;
     color: var(--theme-color);
@@ -138,8 +142,16 @@ header #nav-links #links .link {
     margin-right: 30px;
 }
 
-#btnCloseSi {
-    width: 0px;
+#btnCloseSideNav {
+    width: 60px;
     align-self: flex-end;
     height: 60px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+#btnCloseSideNav:hover {
+    color: rgba(255, 255, 255, 0.744);
 }
