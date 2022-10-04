@@ -1,3 +1,8 @@
+:root {
+    --theme-color: rgb(28,28,28);
+    --text-color: rgb(226, 224, 224);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +12,14 @@
 body {
     height: 100vh;
     width: 100vw;
+    position: relative;
 }
 
 header {
     height: 10vh;
     width: 100vw;
     background: linear-gradient(rgb(33, 33, 33),rgb(22, 22, 22));
-    color: #fff;
+    color: var(--text-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +34,8 @@ header #nav-links{
     display: flex;
     align-items: center;
     height: 100%;
+    width: 60%;
+    max-width: 500px;
 }
 
 header #nav-links #links {
@@ -35,9 +43,22 @@ header #nav-links #links {
     align-items: center;
     height: 100%;
     padding-top: 10px;
+    width: 100%;
+    justify-content: space-between;
 }
+
 header #nav-links #links .link {
-    margin: 0 20px;
     list-style: none;
+    padding: 3px 10px;
+    transition: 0.1s ease-in-out;
 }
+
+.link:hover {
+    color: #fff;
+    font-weight: 300;
+    font-size: large;
+}
+
+/* styling the nav-bar-opener */
+
 
