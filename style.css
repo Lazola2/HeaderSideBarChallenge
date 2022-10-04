@@ -70,7 +70,16 @@ header #nav-links #links .link {
     border-radius: 0 0 10px 0;
     line-height: 5px;
     background-color: rgb(20, 20, 20);
-    color: var(--text-color)
+    color: var(--text-color);
+    position: absolute;
 }
 
-
+#side-nav {
+    height: 90vh;
+    width: 300px;
+    left: -300px;
+    background: var(--theme-color);
+    position: relative;
+    transition: .3s ease-in;
+    color: var(--text-color);
+}
