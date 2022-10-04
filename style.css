@@ -83,3 +83,41 @@ header #nav-links #links .link {
     transition: .3s ease-in;
     color: var(--text-color);
 }
+
+#side-links {
+    width: 100%;
+}
+
+#side-links .side-link {
+    height: 60px;
+    list-style: none;
+    position: relative;
+    left: -32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    width: 100%;
+}
+
+.side-link button {
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: smaller;
+    border: none;
+}
+
+.side-link:hover button {
+    background: var(--theme-color);
+    color: #fff;
+}
+
+
+#side-links .side-link:hover{
+    background-color: #fff;
+    color: var(--theme-color);
+}
+
+#side-links .side-link span i {
+    margin-right: 30px;
+}
