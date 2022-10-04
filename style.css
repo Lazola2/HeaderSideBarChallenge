@@ -95,6 +95,9 @@ header #nav-links #links .link {
     position: relative;
     transition: .3s ease-in;
     color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #side-links {
@@ -133,4 +136,10 @@ header #nav-links #links .link {
 
 #side-links .side-link span i {
     margin-right: 30px;
+}
+
+#btnCloseSi {
+    width: 0px;
+    align-self: flex-end;
+    height: 60px;
 }
