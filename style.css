@@ -13,4 +13,5 @@ header {
     height: 10vh;
     width: 100vw;
     background: linear-gradient(rgb(33, 33, 33),rgb(22, 22, 22));
+    color: #fff;
 }
